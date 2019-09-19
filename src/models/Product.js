@@ -19,4 +19,4 @@ const ProductSchema = new mongoose.Schema({
     },
 })
 
-mongoose.Model('Product', ProductSchema)
+mongoose.model('Product', ProductSchema)
